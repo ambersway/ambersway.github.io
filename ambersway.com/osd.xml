@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Amber&#039;s Way</ShortName>
+	<Description>Search Amber&#039;s Way - A blog to record the journey of our 6 year old daughter Amber&#039;s progress, which began when she was rushed to the ER on March 22 2018 with a hemorrhaged tumor that caused a stroke, and the discovery that she has glioblastoma, a very aggressive form of brain cancer.  We&#039;re going to make this journey in Amber&#039;s Way – with some spunk, a smirk, and a ton of hope and faith.</Description>
+	<Contact>help@wordpress.com</Contact>
+	<Url type="application/atom+xml" template="https://ambersway.com/?s={searchTerms}&amp;feed=atom" />
+	<Url type="rss+xml" template="https://ambersway.com/?s={searchTerms}&amp;feed=rss2" />
+	<Url type="text/html" template="https://ambersway.com/?s={searchTerms}" method="GET" />
+	<Url type="application/opensearchdescription+xml" rel="self" template="https://ambersway.com/osd.xml" />
+	<LongName>Amber&#039;s Way</LongName>
+	<Image height="16" width="16" type="image/vnd.microsoft.icon">https://amberswayblog.files.wordpress.com/2018/03/psx_20180329_0848361.jpg?w=16</Image>
+	<Image height="64" width="64" type="image/jpeg">https://amberswayblog.files.wordpress.com/2018/03/psx_20180329_0848361.jpg?w=64</Image>
+	<Query role="example" searchTerms="photography" />
+	<Tags>blog</Tags>
+	<Developer>Automattic</Developer>
+	<SyndicationRight>open</SyndicationRight>
+	<AdultContent>false</AdultContent>
+	<Language>en</Language>
+	<OutputEncoding>UTF-8</OutputEncoding>
+	<InputEncoding>UTF-8</InputEncoding>
+	<moz:SearchForm>https://ambersway.com</moz:SearchForm>
+</OpenSearchDescription>
