@@ -36,6 +36,7 @@ body {
     font-family: var(--font-serif);
     font-size: 17px;
     line-height: 1.75;
+    overflow-wrap: break-word;
 }
 
 a { color: var(--purple-mid); text-decoration: none; }
@@ -151,7 +152,7 @@ a:focus-visible {
 }
 #toc .toc-date {
     color: var(--purple-muted);
-    font-size: 0.78rem;
+    font-size: 0.82rem;
     margin-left: 0.3em;
 }
 
@@ -176,18 +177,15 @@ a:focus-visible {
     font-family: var(--font-sans);
 }
 
-.post-content { color: var(--text); }
-.post-content p {
-    max-width: 68ch;
-    margin-bottom: 1.1rem;
-}
+.post-content { color: var(--text); max-width: 68ch; }
+.post-content p { margin-bottom: 1.1rem; }
 .post-content img {
     max-width: 100%;
     max-height: 600px;
     width: auto;
     height: auto;
     border-radius: 4px;
-    margin: 0.8rem 0;
+    margin: 0.8rem auto;
     display: block;
 }
 .post-content figure { margin: 1rem 0; }
@@ -204,7 +202,7 @@ a:focus-visible {
 }
 .post-content blockquote {
     border-left: 3px solid var(--purple-border);
-    margin: 1rem 0;
+    margin: 1.5rem 0;
     padding: 0.5rem 1rem;
     color: #5a4070;
     font-style: italic;
@@ -243,7 +241,7 @@ a:focus-visible {
 }
 .comment-author { color: var(--purple-mid); font-weight: bold; }
 .comment-body {
-    font-size: 0.93rem;
+    font-size: 1rem;
     color: var(--text-comment);
     line-height: 1.6;
 }
